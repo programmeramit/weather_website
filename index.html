@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+
+
+        <div class="container">
+            
+            <div class="side">
+                <div class="side_info" style="display:flex;flex-direction:row ;">
+           <h1><span id="temperature">23°C</span></h1>
+           <div style="display:flex;flex-direction: column;">
+        <h2><span id="city">London</span></h2>
+        <P ><span id="country">United Kingdom</span></P>
+        
+    </div>
+    <div style="margin-left:20px">
+        <span id="icon">☁️ Cloud</span>
+    </div>
+</div>
+
+            </div>
+            <div id="result" class="right">
+                <div class="search">
+                    <input type="text" id="search" width="100" height="100" spellcheck="false" placeholder="Enter City Name"/>
+                    <button id="click" value="search"><i class="material-icons" style="font-size:36px">search</i>
+                    </button>
+                </div>
+               <div class="details" >
+                <h4>Weather Details</h4>
+                <hr height="5" color="white" />
+                <div style="display:flex;justify-content:space-between;margin: 10px;">
+                    <p>Cloudy ☁️</p>
+                    <p><span id="cloud">46</span></p>
+                </div>
+                <div style="display:flex;justify-content:space-between;margin: 10px;">
+                    <p>Humidity</p>
+                    <p><span id="humidity">26</span></p>
+                </div>
+                <div style="display:flex;justify-content:space-between;margin: 10px;">
+                    <p>Wind Speed🎐</p>
+                    <p><span id="speed">6</span></p>
+                </div>
+                <div style="display:flex;justify-content:space-between;margin: 10px;">
+                    <p>rain 🌧️</p>
+                    <p><span id="predict">false</span></p>
+                </div>
+                <div style="display:flex;justify-content:space-between;margin: 10px;">
+                    <p>Sunrise 🌅</p>
+                    <p><span id="sunrise">5:30</span></p>
+                </div>
+                <div style="display:flex;justify-content:space-between;margin: 10px;">
+                    <p>Sunset 🌄</p>
+                    <p ><span id="sunset">6:20</span></p>
+                </div>
+                
+                
+                </div>
+
+            </div>
+           
+
+        </div>
+
+        <script src="index.js" ></script>
+
+    </body>
+
+</html>
